@@ -7,3 +7,4 @@ diametro_max = diametro * max
 diametro_max = round(diametro_max, 2)
 print('Diametro mínimo do cilindro é:', diametro_min)
 print('Diametro máximo do cilindro é:', diametro_max)
+print('Tolerância do diâmetro é de:', round(diametro_max - diametro_min, 2))
