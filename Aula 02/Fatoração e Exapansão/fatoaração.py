@@ -1,4 +1,4 @@
-from sympy import *
+from sympy import symbols, factor, pprint
 x, y = symbols("x y")
 fatoração = factor(2*x**4 + 8*x**3 + 10*x**2)
 pprint(fatoração)
